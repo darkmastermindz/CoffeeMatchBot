@@ -13,5 +13,5 @@ or
 
 Run Script to Generate Results with Email `mailto:` and `microsoft teams` Links
 ```bash
-python ./CoffeeMatchBot.py
+python ./CoffeeMatchBot_WithLinks.py
 ```
