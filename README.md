@@ -1,5 +1,6 @@
 # ☕ CoffeeMatchBot.py
-Takes a list of names and emails and randomly matches people
+Copypasta Generator:
+Takes a list of names and emails from excel spreadsheet and randomly matches people
 
 Must have `input.xlsx` in same directory
 
