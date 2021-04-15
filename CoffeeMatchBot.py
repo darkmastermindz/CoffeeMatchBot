@@ -42,7 +42,7 @@ result = pd.concat(groups, axis=1, join='inner')
 
 print(result, end="\n\n")
 print("☕🔮📋 --- Saving Result as Excel File", end="\n\n")
-df.to_excel(OUTPUT_FILENAME + ".xlsx", index=False)
+result.to_excel(OUTPUT_FILENAME + ".xlsx", index=False)
 
 print(format("✨☕ Your Magical Coffee is Done! Check %s.xlsx file" % OUTPUT_FILENAME))
 print("-Hansel", end="\n\n")
