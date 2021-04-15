@@ -29,7 +29,7 @@ dfs = np.array_split(df0, 2)
 print("☕💠😊 Group 1:")
 df_group0 = pd.DataFrame(dfs[0]).sample(frac=1).reset_index(drop = True)
 df_group0.set_axis(["Name", "Email"], axis=1)
-df_group1['TeamsChat'] = df['Email'].apply(lambda x: "{}{}".format('https://teams.microsoft.com/l/chat/0/0?Users=:', x))
+df_group0['TeamsChat'] = df['Email'].apply(lambda x: "{}{}".format('https://teams.microsoft.com/l/chat/0/0?Users=:', x))
 df_group0['Email'] = df['Email'].apply(lambda x: "{}{}".format('mailto:', x))
 
 print(df_group0, end="\n\n")
