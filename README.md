@@ -1,4 +1,4 @@
-# CoffeeMatchBot.py
+# ☕ CoffeeMatchBot.py
 Takes a list of names and emails and randomly matches people
 
 Must have `input.xlsx` in same directory
